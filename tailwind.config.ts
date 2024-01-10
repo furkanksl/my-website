@@ -7,18 +7,22 @@ const config: Config = {
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+        fontFamily: {
+            syne: ["var(--font-syne)"],
+            rubik: ["var(--font-rubik)"],
+        },
         extend: {
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
                 "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
             },
-        },
-        colors: {
-            primary: "#1A1A1A",
-            secondary: "#FF9142",
-            "secondary-light": "#FF9142",
-            "secondary-dark": "#8D8D8D",
-            "secondary-darker": "#606060",
+            colors: {
+                primary: "#1A1A1A",
+                secondary: "#FF9142",
+                "secondary-light": "#FF9142",
+                "secondary-dark": "#8D8D8D",
+                "secondary-darker": "#606060",
+            },
         },
     },
     plugins: [],
