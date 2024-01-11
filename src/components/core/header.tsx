@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header className="flex w-full flex-row justify-between items-center max-w-[1240px] px-5 relative z-10">
-            <div className="flex w-full flex-col md:flex-row justify-between items-center">
+            <div className="flex w-full flex-col md:flex-row justify-between items-center gap-y-5 md:gap-y-0">
                 <div className="inline-block font-syne text-3xl md:text-[56px] font-bold text-white group">
                     <span className="inline-block group-hover:first-letter:!text-secondary">Furkan</span>
                     <span className="inline-block group-hover:first-letter:!text-secondary ml-2">Koseoglu</span>
