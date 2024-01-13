@@ -4,7 +4,10 @@ import Image from "next/image";
 
 function Experience(experience: ExperienceType) {
     return (
-        <div className="flex flex-col lg:flex-row lg:items-start gap-x-6 lg:justify-between mb-10 h-full">
+        <div
+            key={experience.id}
+            className="flex flex-col lg:flex-row lg:items-start gap-x-6 lg:justify-between mb-10 h-full"
+        >
             <div className="flex flex-col w-full">
                 <div className="justify-start items-center gap-8 inline-flex mt-16">
                     <div className="flex md:hidden h-2 w-2 rounded-full bg-secondary"></div>
