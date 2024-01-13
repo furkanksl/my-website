@@ -72,7 +72,7 @@ function Experience(experience: ExperienceType) {
 
             <div className="flex relative h-[316px] w-full  mt-16 pb-4">
                 <div className="w-full flex flex-row gap-x-4 overflow-x-auto md:overflow-visible h-[316px] items-start justify-start relative backdrop-blur-md">
-                    {experience.projects.map((item, index) => {
+                    {experience.works.map((item, index) => {
                         const zIndex = `z-[${(index + 1) * 10}]`;
 
                         return (

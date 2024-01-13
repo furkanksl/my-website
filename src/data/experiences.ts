@@ -25,7 +25,7 @@ const dappd: ExperienceType = {
     ],
     description:
         "I have worked on many projects from scratch to live. Built many apps and integrated many smart-contracts.",
-    projects: [
+    works: [
         {
             image: "/liquid-project.webp",
             name: "Liquid",
@@ -48,7 +48,7 @@ const motleylabs: ExperienceType = {
     techStack: ["Next.js", "TailwindCSS", "TypeScript", "Redux", "Solana", "SWR", "Prisma", "Golang", "Github"],
     description:
         "I have worked on nightmarket.io product which is main product of the company. Implemented UIs,cool animations and websockets. They ended up shutting down the company due to crypto winter.",
-    projects: [
+    works: [
         {
             image: "/motleylab-2.webp",
             name: "Motley Labs",
@@ -71,7 +71,7 @@ const shuttlescanner: ExperienceType = {
     techStack: ["Angular", "TailwindCSS", "TypeScript", "Mysql", "Golang", "Firebase", "Git"],
     description:
         "Shuttlescanner is a young startup which is a different booking platform for other alternatives. I mostly worked on backend and some frontend. I implemented a lot of features and fixed a lot of bugs. I also implemented a lot of tests for the backend.",
-    projects: [
+    works: [
         {
             image: "/shuttlescanner-2.webp",
             name: "Shuttlescanner",
@@ -94,7 +94,7 @@ const projectMoonshot: ExperienceType = {
     techStack: ["Angular", "TailwindCSS", "TypeScript", "Mysql", "Golang", "Firebase", "Git"],
     description:
         "As a Frontend Developer in Moonshot, I was working with deseign implementations and various of smart contract interactions in Moonshot. Faucet , Mining, Vesting , NFT etc. I was huge part of their nft marketplace called MoonBoxes",
-    projects: [
+    works: [
         {
             image: "/project-moonshot-2.webp",
             name: "Project Moonshot",
@@ -117,7 +117,7 @@ const cofounder: ExperienceType = {
     techStack: ["Flutter", "Node.js", "Firebase", "Git"],
     description:
         "We have built an app that suggests daily activities and eco-friendly brands to people who are trying to live more sustainably. When people start to switch to a sustainable lifestyle they need to do a lot of research and find out what they will do on their own. We have helped these people to find those things, do it with a community and see the collective impact. Previously we worked on Nemria and Carbofil is the result of this learning process!",
-    projects: [
+    works: [
         {
             image: "/cofounder-2.webp",
             name: "Carbofil & Nemria",

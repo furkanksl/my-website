@@ -1,4 +1,4 @@
-export type ProjectType = {
+export type WorkType = {
     image: string;
     name: string;
     url: string;

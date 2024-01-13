@@ -1,4 +1,4 @@
-import { ProjectType } from "./ProjectType";
+import { WorkType } from "./WorkType";
 
 export type ExperienceType = {
     company: string;
@@ -7,6 +7,6 @@ export type ExperienceType = {
     startDate: string;
     endDate: string;
     description: string;
-    projects: ProjectType[];
+    works: WorkType[];
     techStack: string[];
 };
