@@ -66,8 +66,8 @@ const shuttlescanner: ExperienceType = {
     company: "Shuttlescanner",
     position: "Fullstack Engineer (part-time)",
     companyWebsite: "https://shuttlescanner.web.app/",
-    startDate: "May",
-    endDate: "Sept 2023",
+    startDate: "Mar",
+    endDate: "Jul 2022",
     techStack: ["Angular", "TailwindCSS", "TypeScript", "Mysql", "Golang", "Firebase", "Git"],
     description:
         "Shuttlescanner is a young startup which is a different booking platform for other alternatives. I mostly worked on backend and some frontend. I implemented a lot of features and fixed a lot of bugs. I also implemented a lot of tests for the backend.",
@@ -85,4 +85,27 @@ const shuttlescanner: ExperienceType = {
     ],
 };
 
-export const experiences: ExperienceType[] = [dappd, motleylabs, shuttlescanner];
+const projectMoonshot: ExperienceType = {
+    company: "Project Moonshot",
+    position: "Frontend Engineer",
+    companyWebsite: "https://project-moonshot-web.web.app/",
+    startDate: "Jun 2021",
+    endDate: "Jul 2022",
+    techStack: ["Angular", "TailwindCSS", "TypeScript", "Mysql", "Golang", "Firebase", "Git"],
+    description:
+        "As a Frontend Developer in Moonshot, I was working with deseign implementations and various of smart contract interactions in Moonshot. Faucet , Mining, Vesting , NFT etc. I was huge part of their nft marketplace called MoonBoxes",
+    projects: [
+        {
+            image: "/project-moonshot-2.webp",
+            name: "Project Moonshot",
+            url: "https://moonboxesio.web.app/info",
+        },
+        {
+            image: "/project-moonshot-1.webp",
+            name: "Project Moonshot",
+            url: "https://project-moonshot-web.web.app/",
+        },
+    ],
+};
+
+export const experiences: ExperienceType[] = [dappd, motleylabs, shuttlescanner, projectMoonshot];
