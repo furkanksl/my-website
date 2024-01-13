@@ -91,7 +91,7 @@ function Experience(experience: ExperienceType) {
                                     left: `${index * 100}px`,
                                 }}
                                 className={clsx(
-                                    "group md:absolute top-0 flex h-[300px] w-[400px] bg-transparent rounded-xl hover:z-50 md:hover:scale-110 transition-all duration-500 ease-in-out hover:border-2 hover:border-secondary hover:shadow-[0_0px_20px_rgba(255,_145,_66,_1)]",
+                                    "group md:absolute top-0 flex h-[300px] w-[400px] bg-transparent rounded-xl hover:z-50 md:hover:scale-110 transition-all duration-500 ease-in-out hover:border-2 hover:border-secondary hover:md:shadow-[0_0px_20px_rgba(255,_145,_66,_1)]",
                                     zIndex
                                 )}
                             >
@@ -100,10 +100,10 @@ function Experience(experience: ExperienceType) {
                                     width={400}
                                     height={300}
                                     alt={"project-image-" + index}
-                                    className={clsx("object-fill rounded-xl w-screen max-w-[396px]", zIndex)}
+                                    className={clsx("object-fill rounded-xl w-screen max-w-[396px] h-full", zIndex)}
                                 />
 
-                                <div className="cursor-pointer text-base md:text-lg text-white hover:text-black hover:bg-secondary-light font-rubik hidden group-hover:flex absolute bottom-0 right-0 left-0 h-10 justify-center items-center bg-black/30 transition-all duration-500 ease-out delay-100 rounded-b-lg">
+                                <div className=" cursor-pointer text-base md:text-lg text-white hover:text-black hover:bg-secondary-light font-rubik hidden group-hover:md:flex absolute bottom-0 right-0 w-screen max-w-[400px] h-10 justify-center items-center bg-black/30 transition-all duration-500 ease-out delay-100 rounded-b-lg">
                                     Visit
                                 </div>
                             </a>
