@@ -58,7 +58,10 @@ function Experience(experience: ExperienceType) {
                     <div className="flex flex-wrap gap-x-[6px] justify-start items-center">
                         {experience.techStack.map((tech, index) => {
                             return (
-                                <div className="text-secondary-dark hover:scale-110 hover:text-secondary-light text-base font-normal font-rubik leading-snug tracking-tight">
+                                <div
+                                    key={index + experience.company}
+                                    className="text-secondary-dark hover:scale-110 hover:text-secondary-light text-base font-normal font-rubik leading-snug tracking-tight"
+                                >
                                     {tech + (index !== experience.techStack.length - 1 ? "," : "")}
                                 </div>
                             );

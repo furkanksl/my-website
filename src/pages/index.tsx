@@ -51,8 +51,8 @@ export default function Home() {
                         </div>
                         <div className="w-[72px] h-[0px] border border-secondary"></div>
                     </div>
-                    {experiences.map((experience, index) => {
-                        return <Experience key={index} {...experience} />;
+                    {experiences.map((experience) => {
+                        return <Experience key={experience.id} {...experience} />;
                     })}
                 </div>
             </div>
