@@ -1,7 +1,10 @@
+import Image from "next/image";
+import { Syne, Rubik } from "next/font/google";
+
 import Header from "@/components/core/header";
 import AboutMe from "@/components/home/AboutMe";
-import { Syne, Rubik } from "next/font/google";
-import Image from "next/image";
+import Experience from "@/components/home/Experience";
+import { experiences } from "@/data/experiences";
 
 const syne = Syne({ subsets: ["latin"], display: "swap", variable: "--font-syne" });
 const rubik = Rubik({ subsets: ["latin"], display: "swap", variable: "--font-rubik" });
@@ -38,6 +41,20 @@ export default function Home() {
             /> */}
             <div className="flex flex-col max-w-[1240px] px-5 mt-[50px] md:mt-[110px] w-screen">
                 <AboutMe />
+
+                <div className="flex flex-col mt-[130px] md:mt-[168px] z-10 gap-y-3 md:gap-y-10">
+                    <div className="w-full h-[58px] justify-center items-center gap-8 flex flex-row">
+                        <div className="w-[72px] h-[0px] border border-secondary"></div>
+                        <div className="text-white text-3xl md:text-4xl font-normal font-syne">
+                            {/* places I worked at and things I’ve built */}
+                            Experiences
+                        </div>
+                        <div className="w-[72px] h-[0px] border border-secondary"></div>
+                    </div>
+                    {experiences.map((experience, index) => {
+                        return <Experience key={index} {...experience} />;
+                    })}
+                </div>
             </div>
         </main>
     );
