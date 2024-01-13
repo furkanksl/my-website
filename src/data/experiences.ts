@@ -1,0 +1,76 @@
+import { ExperienceType } from "@/types/ExperienceType";
+
+export const experiences: ExperienceType[] = [
+    {
+        company: "Dappd",
+        position: "Fullstack Engineer | TPM",
+        companyWebsite: "https://dappd.net",
+        startDate: "2022",
+        endDate: "Present",
+        techStack: [
+            "Next.js",
+            "TailwindCSS",
+            "TypeScript",
+            "Solidity",
+            "Hardhat",
+            "Ethers.js",
+            "Wagmi",
+            "React Query",
+            "Graphql",
+            "tRPC",
+            "Prisma",
+            "Postgresql",
+            "AWS",
+            "Github",
+        ],
+        description: "",
+        projects: [
+            {
+                image: "/liquid-project.webp",
+                name: "Liquid",
+                url: "https://www.getliquid.io/",
+            },
+            {
+                image: "/statis-network-project.webp",
+                name: "Statis Network",
+                url: "https://www.stasis.network/",
+            },
+        ],
+    },
+    {
+        company: "Dappd",
+        position: "Fullstack Engineer | TPM",
+        companyWebsite: "https://dappd.net",
+        startDate: "2022",
+        endDate: "Present",
+        techStack: [
+            "Next.js",
+            "TailwindCSS",
+            "TypeScript",
+            "Solidity",
+            "Hardhat",
+            "Ethers.js",
+            "Wagmi",
+            "React Query",
+            "Graphql",
+            "tRPC",
+            "Prisma",
+            "Postgresql",
+            "AWS",
+            "Github",
+        ],
+        description: "",
+        projects: [
+            {
+                image: "/liquid-project.webp",
+                name: "Liquid",
+                url: "https://www.getliquid.io/",
+            },
+            {
+                image: "/statis-network-project.webp",
+                name: "Statis Network",
+                url: "https://www.stasis.network/",
+            },
+        ],
+    },
+];
