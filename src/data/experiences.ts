@@ -108,4 +108,27 @@ const projectMoonshot: ExperienceType = {
     ],
 };
 
-export const experiences: ExperienceType[] = [dappd, motleylabs, shuttlescanner, projectMoonshot];
+const cofounder: ExperienceType = {
+    company: "Carbofil & Nemria",
+    position: "Technical Co-Founder",
+    companyWebsite: "https://carbofil.com/",
+    startDate: "Mar 2021",
+    endDate: "Mar 2022",
+    techStack: ["Flutter", "Node.js", "Firebase", "Git"],
+    description:
+        "We have built an app that suggests daily activities and eco-friendly brands to people who are trying to live more sustainably. When people start to switch to a sustainable lifestyle they need to do a lot of research and find out what they will do on their own. We have helped these people to find those things, do it with a community and see the collective impact. Previously we worked on Nemria and Carbofil is the result of this learning process!",
+    projects: [
+        {
+            image: "/cofounder-2.webp",
+            name: "Carbofil & Nemria",
+            url: "https://carbofil.com/",
+        },
+        {
+            image: "/cofounder-1.webp",
+            name: "carbofil & Nemria",
+            url: "https://nemria.com/",
+        },
+    ],
+};
+
+export const experiences: ExperienceType[] = [dappd, motleylabs, shuttlescanner, projectMoonshot, cofounder];
