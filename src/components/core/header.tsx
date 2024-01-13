@@ -7,9 +7,12 @@ function Header() {
                     <span className="inline-block group-hover:first-letter:!text-secondary ml-2">Koseoglu</span>
                 </div>
                 <div className="flex flex-row gap-x-4 md:gap-x-8 items-center">
-                    <div className="inline-block font-rubik text-[14px] font-medium text-secondary-dark uppercase cursor-pointer hover:scale-110 hover:tracking-[2px] hover:text-white transform duration-300 hover:shadow-sm hover:first-letter:!text-secondary">
+                    <a
+                        href="#experiences"
+                        className="inline-block font-rubik text-[14px] font-medium text-secondary-dark uppercase cursor-pointer hover:scale-110 hover:tracking-[2px] hover:text-white transform duration-300 hover:shadow-sm hover:first-letter:!text-secondary"
+                    >
                         Experiences
-                    </div>
+                    </a>
                     <div className="inline-block font-rubik text-[14px] font-medium text-secondary-dark uppercase cursor-pointer hover:scale-110 hover:tracking-[2px] hover:text-white transform duration-300 hover:shadow-sm hover:first-letter:!text-secondary">
                         Projects
                     </div>
