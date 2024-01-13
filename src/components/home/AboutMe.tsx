@@ -39,8 +39,13 @@ function AboutMe() {
             <div className="flex flex-col items-start justify-start w-full z-10">
                 <div className="text-white text-[32px] font-bold font-syne mx-auto md:mx-0">About me</div>
                 <div className="text-secondary-dark text-lg font-normal font-rubik leading-7 tracking-wide pt-6">
-                    Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio
-                    showcases her wide range of work, spanning books, posters and web design.
+                    I was born in 1998 and in a very small village at Van/Turkey. I was too crious about the android
+                    phones when I was in highschool. Changing firmware of phones for fun. And studied Computer
+                    Engineering at university with finishing it with 3.3/4 GPA.
+                    <br />
+                    <br />I did my intership as Fullstack Engineer remotely (before covid) to a company in London/UK.
+                    Before graduation from university, I started to work as a Frontend Engineer. Currently, working as a
+                    Senior Fullstack Engineer and exploring the AI field.
                 </div>
                 <div className="text-secondary text-lg font-bold font-syne pt-8">follow me on:</div>
                 <div className="flex w-full justify-between pt-4">
