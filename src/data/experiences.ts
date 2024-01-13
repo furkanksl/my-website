@@ -1,6 +1,7 @@
 import { ExperienceType } from "@/types/ExperienceType";
 
 const dappd: ExperienceType = {
+    id: 1,
     company: "Dappd",
     position: "Sr. Fullstack Engineer | TPM",
     companyWebsite: "https://dappd.net",
@@ -40,6 +41,7 @@ const dappd: ExperienceType = {
 };
 
 const motleylabs: ExperienceType = {
+    id: 2,
     company: "Motley Labs",
     position: "Fullstack Engineer (Contractor)",
     companyWebsite: "https://twitter.com/MotleyLabs",
@@ -63,6 +65,7 @@ const motleylabs: ExperienceType = {
 };
 
 const shuttlescanner: ExperienceType = {
+    id: 3,
     company: "Shuttlescanner",
     position: "Fullstack Engineer (part-time)",
     companyWebsite: "https://shuttlescanner.web.app/",
@@ -86,6 +89,7 @@ const shuttlescanner: ExperienceType = {
 };
 
 const projectMoonshot: ExperienceType = {
+    id: 4,
     company: "Project Moonshot",
     position: "Frontend Engineer",
     companyWebsite: "https://project-moonshot-web.web.app/",
@@ -109,6 +113,7 @@ const projectMoonshot: ExperienceType = {
 };
 
 const cofounder: ExperienceType = {
+    id: 5,
     company: "Carbofil & Nemria",
     position: "Technical Co-Founder",
     companyWebsite: "https://carbofil.com/",
