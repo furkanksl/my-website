@@ -88,7 +88,7 @@ function Experience(experience: ExperienceType) {
                                 referrerPolicy="no-referrer"
                                 key={index}
                                 style={{
-                                    left: `${index * 100}px`,
+                                    right: `${(experience.works.length - 1 - index) * 100}px`,
                                 }}
                                 className={clsx(
                                     "group md:absolute top-0 flex h-[300px] w-[400px] bg-transparent rounded-xl hover:z-50 md:hover:scale-110 transition-all duration-500 ease-in-out hover:border-2 hover:border-secondary hover:md:shadow-[0_0px_20px_rgba(255,_145,_66,_1)]",
