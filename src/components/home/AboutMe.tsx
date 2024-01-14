@@ -80,6 +80,18 @@ function AboutMe() {
                             Twitter
                         </a>
                     </div>
+
+                    <div className="flex-1 flex justify-center">
+                        <a
+                            href="https://www.producthunt.com/@furkanksl"
+                            target="_blank"
+                            referrerPolicy="no-referrer"
+                            title="Product Hunt"
+                            className="w-min text-neutral-400 text-base md:text-xl font-bold font-['Inter'] uppercase tracking-[2.06px] cursor-pointer hover:scale-110 hover:text-white"
+                        >
+                            PH
+                        </a>
+                    </div>
                 </div>
 
                 <div className="text-white text-opacity-70 text-2xl font-bold font-syne mt-10 md:mt-[100px]">
