@@ -136,4 +136,35 @@ const cofounder: ExperienceType = {
     ],
 };
 
-export const experiences: ExperienceType[] = [dappd, motleylabs, shuttlescanner, projectMoonshot, cofounder];
+const internship: ExperienceType = {
+    id: 6,
+    company: "Salahfalah",
+    position: "Fullstack Engineer (Intern)",
+    companyWebsite: "https://www.instagram.com/thesalahfalah/?hl=en",
+    startDate: "June",
+    endDate: "Sept 2020",
+    techStack: ["React Native", "React", "Firebase", "Git"],
+    description:
+        "I have done my internship at SalahFalah. I used React Native for mobile development and React Js for web. They had +27k active users. I created an admin panel to be able to control the user subscriptions. It is still getting used by the company. I mostly fixed bugs on main app.",
+    works: [
+        {
+            image: "/salahfalah-1.webp",
+            name: "Salahfalah",
+            url: "https://www.instagram.com/thesalahfalah",
+        },
+        {
+            image: "/salahfalah-2.webp",
+            name: "Salahfalah",
+            url: "https://play.google.com/store/apps/details?id=com.salahfalah",
+        },
+    ],
+};
+
+export const experiences: ExperienceType[] = [
+    dappd,
+    motleylabs,
+    shuttlescanner,
+    projectMoonshot,
+    cofounder,
+    internship,
+];
