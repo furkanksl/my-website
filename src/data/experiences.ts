@@ -160,6 +160,30 @@ const internship: ExperienceType = {
     ],
 };
 
+const derbyday: ExperienceType = {
+    id: 7,
+    company: "Derby Day",
+    position: "Sr. Fullstack Engineer ( Freelance )",
+    companyWebsite: "https://derbyday.vercel.app",
+    startDate: "Aug 2023",
+    endDate: "Jan 2024",
+    techStack: ["NextJS", "Tailwind", "Firebase", "Git", "TypeScript", "Django", "AWS", "Solana", "NodeJS"],
+    description:
+        "Derbyday is a web3 horse racing game with fair, random odds and it has races every 5-10 minutes. I worked on the frontend and backend of the project. I implemented a lot of features and fixed a lot of bugs.",
+    works: [
+        {
+            image: "/derbyday-1.webp",
+            name: "Derby Day",
+            url: "https://www.youtube.com/@derbyday_bet",
+        },
+        {
+            image: "/derbyday-2.webp",
+            name: "Derby Day",
+            url: "https://twitter.com/derbyday_bet",
+        },
+    ],
+};
+
 export const experiences: ExperienceType[] = [
     dappd,
     motleylabs,
