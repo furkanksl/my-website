@@ -45,7 +45,7 @@ export default function Home() {
                 <div id="experiences" className="flex flex-col mt-[130px] md:mt-[168px] z-10 gap-y-3 md:gap-y-10">
                     <div className="w-full h-[58px] justify-center items-center gap-8 flex flex-row">
                         <div className="w-[72px] h-[0px] border border-secondary"></div>
-                        <div className="text-white text-3xl md:text-4xl font-normal font-syne">
+                        <div className="text-white text-3xl md:text-[32px] font-bold font-syne">
                             {/* places I worked at and things I’ve built */}
                             Experiences
                         </div>
@@ -66,7 +66,7 @@ export default function Home() {
                             return (
                                 <div
                                     key={index}
-                                    className="text-center text-secondary hover:text-white text-2xl md:text-4xl font-bold font-syne transition-all duration-200 "
+                                    className="text-center text-secondary hover:text-white text-2xl md:text-3xl font-bold font-syne transition-all duration-200 "
                                 >
                                     {letter}
                                 </div>
@@ -75,7 +75,7 @@ export default function Home() {
                 </div>
                 <a
                     href="mailto:furkankoseoglu65@gmail.com"
-                    className="text-center text-white text-xl md:text-[40px] font-bold font-syne underline"
+                    className="text-center text-white text-xl md:text-4xl font-bold font-syne underline"
                 >
                     furkankoseoglu65@gmail.com
                     {/* info@furkanksl.com */}
