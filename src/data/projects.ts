@@ -20,17 +20,20 @@ export const projects: ProjectType[] = [
         description: "A time tracking app to log hours of the day.",
         links: ["https://gethorae.com/", "https://play.google.com/store/apps/details?id=com.categorize.time"],
     },
-
     {
         id: 3,
         name: "Brig Note",
         image: "/brignote.webp",
         description:
             "A voice recording app that lets you take timestamped notes while listening to a lecture or interviewing someone. It was #3 product of the day in Product Hunt when launched. I made this app with my friends in Nemria time.",
-        links: [
-            "https://nemria.com/brig-note",
-            "https://apps.apple.com/tt/app/brig-note/id1564488528?ign-mpt=uo%3D2&ref=nemria-brig-note",
-            "https://www.producthunt.com/products/brig-note",
-        ],
+        links: ["https://nemria.com/brig-note", "https://www.producthunt.com/products/brig-note"],
+    },
+    {
+        id: 4,
+        name: "Exashape",
+        image: "/exashape.webp",
+        description:
+            "This is a memory game that I made with my friends in Nemria time. You select a shape and app asks you by notifcation to find that shape in a grid.",
+        links: ["https://nemria.com/exashape"],
     },
 ];
