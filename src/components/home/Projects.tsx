@@ -9,7 +9,7 @@ function Projects() {
                 <div className="text-white text-3xl md:text-[32px] font-bold font-syne">Projects</div>
                 <div className="w-[72px] h-[0px] border border-secondary"></div>
             </div>
-            <div className="grid grid-flow-row justify-center items-center mx-auto gap-x-3">
+            <div className="grid  grid-cols-1 md:grid-cols-2 justify-center items-center mx-auto gap-20">
                 {projects.map((project) => (
                     <Project key={project.id} {...project} />
                 ))}
