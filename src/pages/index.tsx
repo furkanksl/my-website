@@ -1,13 +1,11 @@
-import Image from "next/image";
 import { Syne, Rubik } from "next/font/google";
 
 import Header from "@/components/core/header";
 import AboutMe from "@/components/home/AboutMe";
-import Experience from "@/components/home/Experience";
-import { experiences } from "@/data/experiences";
 import Experiences from "@/components/home/Experiences";
 import GetInTouch from "@/components/home/GetInTouch";
 import Projects from "@/components/home/Projects";
+import BlurryBubbles from "@/components/home/BlurryBubbles";
 
 const syne = Syne({ subsets: ["latin"], display: "swap", variable: "--font-syne" });
 const rubik = Rubik({ subsets: ["latin"], display: "swap", variable: "--font-rubik" });
@@ -18,30 +16,8 @@ export default function Home() {
             className={`flex min-h-screen bg-primary w-screen overflow-x-hidden flex-col items-center justify-start relative pt-12 ${syne.variable} ${rubik.variable}`}
         >
             <Header />
+            <BlurryBubbles />
 
-            <Image
-                src="/blurry-bubble.svg"
-                width={500}
-                height={217}
-                alt="blurry-bubble"
-                className="max-w-[500px] !max-h-[217px] object-cover blur-[200px] absolute top-[30%] -right-[140px] z-0"
-            />
-
-            <Image
-                src="/blurry-bubble.svg"
-                width={500}
-                height={217}
-                alt="blurry-bubble"
-                className="max-w-[500px] !max-h-[217px] object-cover blur-[200px] absolute top-[70%] -left-[140px] z-0"
-            />
-
-            {/* <Image
-                src="/blurry-bubble.svg"
-                width={500}
-                height={217}
-                alt="blurry-bubble"
-                className="max-w-[500px] !max-h-[217px] object-cover blur-[200px] absolute top-[95%] -right-[140px] z-0"
-            /> */}
             <div className="flex flex-col max-w-[1240px] px-5 mt-[50px] md:mt-[110px] w-screen">
                 <AboutMe />
                 <Experiences />
