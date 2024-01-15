@@ -43,6 +43,10 @@ export default function Project(project: ProjectType) {
                 {/* <div className="h-12 absolute bg-white flex opacity-0 group-hover:flex group-hover:opacity-100 group-hover:bottom-0 -bottom-12 right-0 left-0 w-full transition-all duration-300 delay-150"></div> */}
             </div>
 
+            <div className="flex md:hidden text-center text-lg text-white font-rubik font-bold backdrop-blur-md">
+                {project.name}
+            </div>
+
             <div className="h-12 flex md:hidden rounded-lg backdrop-blur-xl flex-row w-[260px] mx-auto items-center justify-center px-2 gap-x-4 shadow-[0_0px_5px_#FFFFFFC6]">
                 {project.links.map((link, index) => (
                     <a
