@@ -36,4 +36,12 @@ export const projects: ProjectType[] = [
             "This is a memory game that I made with my friends in Nemria time. You select a shape and app asks you by notifcation to find that shape in a grid.",
         links: ["https://nemria.com/exashape"],
     },
+    {
+        id: 5,
+        name: "RN / Expo Starter Template",
+        image: "/react-native-starter-template.webp",
+        description:
+            "This is a React Native / Expo starter template which uses Tailwind CSS. It is a good starting point for your next mobile project.",
+        links: ["https://github.com/furkanksl/react-native-expo-tailwind-starter-template"],
+    },
 ];
