@@ -13,15 +13,18 @@ function Header() {
                     >
                         Experiences
                     </a>
-                    <div className="inline-block font-rubik text-[14px] font-medium text-secondary-dark uppercase cursor-pointer hover:scale-110 hover:tracking-[2px] hover:text-white transform duration-300 hover:shadow-sm hover:first-letter:!text-secondary">
+                    <a
+                        href="#projects"
+                        className="inline-block font-rubik text-[14px] font-medium text-secondary-dark uppercase cursor-pointer hover:scale-110 hover:tracking-[2px] hover:text-white transform duration-300 hover:shadow-sm hover:first-letter:!text-secondary"
+                    >
                         Projects
-                    </div>
-                    <div className="inline-block font-rubik text-[14px] font-medium text-secondary-dark uppercase cursor-pointer hover:scale-110 hover:tracking-[2px] hover:text-white transform duration-300 hover:shadow-sm hover:first-letter:!text-secondary">
+                    </a>
+                    {/* <div className="inline-block font-rubik text-[14px] font-medium text-secondary-dark uppercase cursor-pointer hover:scale-110 hover:tracking-[2px] hover:text-white transform duration-300 hover:shadow-sm hover:first-letter:!text-secondary">
                         Writings
                     </div>
                     <div className="inline-block font-rubik text-[14px] font-medium text-secondary-dark uppercase cursor-pointer hover:scale-110 hover:tracking-[2px] hover:text-white transform duration-300 hover:shadow-sm hover:first-letter:!text-secondary">
                         Skills
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>
