@@ -1,6 +1,6 @@
-import { WorkType } from "./WorkType";
+import { WorkT } from "./WorkT";
 
-export type ExperienceType = {
+export type ExperienceT = {
     id: number;
     company: string;
     companyWebsite: string;
@@ -8,6 +8,6 @@ export type ExperienceType = {
     startDate: string;
     endDate: string;
     description: string;
-    works: WorkType[];
+    works: WorkT[];
     techStack: string[];
 };

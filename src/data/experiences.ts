@@ -1,6 +1,6 @@
-import { ExperienceType } from "@/types/ExperienceType";
+import { ExperienceT } from "@/types/ExperienceT";
 
-const dappd: ExperienceType = {
+const dappd: ExperienceT = {
     id: 1,
     company: "Dappd",
     position: "Sr. Fullstack Engineer | TPM",
@@ -40,7 +40,7 @@ const dappd: ExperienceType = {
     ],
 };
 
-const motleylabs: ExperienceType = {
+const motleylabs: ExperienceT = {
     id: 2,
     company: "Motley Labs",
     position: "Fullstack Engineer (Contractor)",
@@ -64,7 +64,7 @@ const motleylabs: ExperienceType = {
     ],
 };
 
-const shuttlescanner: ExperienceType = {
+const shuttlescanner: ExperienceT = {
     id: 3,
     company: "Shuttlescanner",
     position: "Fullstack Engineer (part-time)",
@@ -88,7 +88,7 @@ const shuttlescanner: ExperienceType = {
     ],
 };
 
-const projectMoonshot: ExperienceType = {
+const projectMoonshot: ExperienceT = {
     id: 4,
     company: "Project Moonshot",
     position: "Frontend Engineer",
@@ -112,7 +112,7 @@ const projectMoonshot: ExperienceType = {
     ],
 };
 
-const cofounder: ExperienceType = {
+const cofounder: ExperienceT = {
     id: 5,
     company: "Carbofil & Nemria",
     position: "Technical Co-Founder",
@@ -136,7 +136,7 @@ const cofounder: ExperienceType = {
     ],
 };
 
-const internship: ExperienceType = {
+const internship: ExperienceT = {
     id: 6,
     company: "Salahfalah",
     position: "Fullstack Engineer (Intern)",
@@ -160,7 +160,7 @@ const internship: ExperienceType = {
     ],
 };
 
-const derbyday: ExperienceType = {
+const derbyday: ExperienceT = {
     id: 7,
     company: "Derby Day",
     position: "Sr. Fullstack Engineer ( Freelance )",
@@ -184,11 +184,4 @@ const derbyday: ExperienceType = {
     ],
 };
 
-export const experiences: ExperienceType[] = [
-    dappd,
-    motleylabs,
-    shuttlescanner,
-    projectMoonshot,
-    cofounder,
-    internship,
-];
+export const experiences: ExperienceT[] = [dappd, motleylabs, shuttlescanner, projectMoonshot, cofounder, internship];

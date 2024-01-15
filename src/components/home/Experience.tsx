@@ -1,8 +1,8 @@
-import { ExperienceType } from "@/types/ExperienceType";
+import { ExperienceT } from "@/types/ExperienceT";
 import clsx from "clsx";
 import Image from "next/image";
 
-function Experience(experience: ExperienceType) {
+function Experience(experience: ExperienceT) {
     return (
         <div
             key={experience.id}

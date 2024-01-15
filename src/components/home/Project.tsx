@@ -1,8 +1,8 @@
-import { ProjectType } from "@/types/ProjectType";
+import { ProjectT } from "@/types/ProjectT";
 import clsx from "clsx";
 import Image from "next/image";
 
-export default function Project(project: ProjectType) {
+export default function Project(project: ProjectT) {
     // const projectImage = "bg-[url('" + project.image + "')]";
     const projectImage = "url('" + project.image + "')";
     return (
