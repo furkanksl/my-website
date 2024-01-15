@@ -51,8 +51,8 @@ function Experience(experience: ExperienceType) {
                     https://dappd.net
                 </a>
             </div> */}
-                <div className="w-full justify-start items-start gap-4 flex-wrap md:flex-row mt-4">
-                    <div className="whitespace-nowrap text-secondary text-base font-medium font-rubik leading-snug tracking-tight">
+                <div className="flex w-full justify-start items-start gap-4 flex-wrap md:flex-row mt-4">
+                    <div className="w-min whitespace-nowrap text-secondary text-base font-medium font-rubik leading-snug tracking-tight">
                         Tech stack :
                     </div>
                     <div className="flex flex-wrap gap-x-[6px] justify-start items-center">
