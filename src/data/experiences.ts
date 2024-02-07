@@ -97,7 +97,7 @@ const projectMoonshot: ExperienceT = {
     endDate: "Jul 2022",
     techStack: ["Angular", "TailwindCSS", "TypeScript", "Mysql", "Golang", "Firebase", "Git"],
     description:
-        "As a Frontend Developer in Moonshot, I was working with deseign implementations and various of smart contract interactions in Moonshot. Faucet , Mining, Vesting , NFT etc. I was huge part of their nft marketplace called MoonBoxes",
+        "As a Frontend Developer in Moonshot, I was working with design implementations and various of smart contract interactions in Moonshot. Faucet , Mining, Vesting , NFT etc. I was huge part of their nft marketplace called MoonBoxes",
     works: [
         {
             image: "/project-moonshot-2.webp",
