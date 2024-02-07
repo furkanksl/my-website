@@ -5,8 +5,8 @@ const dappd: ExperienceT = {
     company: "Dappd",
     position: "Sr. Fullstack Engineer | TPM",
     companyWebsite: "https://dappd.net",
-    startDate: "2022",
-    endDate: "Present",
+    startDate: "Oct 2022",
+    endDate: "Feb 2024",
     techStack: [
         "Next.js",
         "TailwindCSS",
@@ -25,7 +25,7 @@ const dappd: ExperienceT = {
         "Github",
     ],
     description:
-        "I have worked on many projects from scratch to live. Built many apps and integrated many smart-contracts.",
+        "I have worked on many projects from scratch to live. Built many apps and integrated many smart-contracts. Worked with various clients. Last couple months, I was promoted to Technical Project Manager.",
     works: [
         {
             image: "/liquid-project.webp",
