@@ -32,7 +32,7 @@ function AboutMe() {
                     <div className="flex md:hidden md:group-hover:flex typewriter">Hi 👋</div>
                 </div>
                 <div id="me" className="me-container">
-                    <div className="me flex overflow-visible bg-secondary-darker rounded-[30px] max-h-[296px] max-w-[80vw] md:max-h-[506px] md:max-w-[454px] h-screen w-screen relative !bg-my-pic bg-cover group hover:shadow-[0_0px_20px_rgba(255,_145,_66,_1)] shadow-none shadow-secondary"></div>
+                    <div className="me flex overflow-visible bg-[#858585] rounded-[30px] bg-center max-h-[296px] max-w-[80vw] md:max-h-[506px] md:max-w-[454px] h-screen w-screen relative !bg-my-pic bg-cover group hover:shadow-[0_0px_20px_rgba(255,_145,_66,_1)] shadow-none shadow-secondary"></div>
                 </div>
             </div>
 
