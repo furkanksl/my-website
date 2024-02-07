@@ -77,7 +77,7 @@ function Experience(experience: ExperienceT) {
             </div>
 
             <div className="flex relative h-[316px] w-full  mt-16 pb-4">
-                <div className="w-full flex flex-row gap-x-4 overflow-x-auto md:overflow-visible h-[316px] items-start justify-start relative backdrop-blur-md">
+                <div className="w-full flex flex-row gap-x-4 overflow-x-auto md:overflow-visible h-[296px] items-start justify-start relative backdrop-blur-md">
                     {experience.works.map((item, index) => {
                         const zIndex = `z-[${(index + 1) * 10}]`;
 
@@ -91,14 +91,14 @@ function Experience(experience: ExperienceT) {
                                     right: `${(experience.works.length - 1 - index) * 100}px`,
                                 }}
                                 className={clsx(
-                                    "group md:absolute top-0 flex h-[300px] w-[400px] bg-transparent rounded-xl hover:z-50 md:hover:scale-110 transition-all duration-500 ease-in-out hover:border-2 hover:border-secondary hover:md:shadow-[0_0px_20px_rgba(255,_145,_66,_1)]",
+                                    "group md:absolute top-0 flex h-[280px] w-[400px] bg-transparent rounded-xl hover:z-50 md:hover:scale-110 transition-all duration-500 ease-in-out hover:border-2 hover:border-secondary hover:md:shadow-[0_0px_20px_rgba(255,_145,_66,_1)]",
                                     zIndex
                                 )}
                             >
                                 <Image
                                     src={item.image}
                                     width={400}
-                                    height={300}
+                                    height={280}
                                     alt={"project-image-" + index}
                                     className={clsx("object-fill rounded-xl w-screen max-w-[396px] h-full", zIndex)}
                                 />
@@ -110,7 +110,7 @@ function Experience(experience: ExperienceT) {
                         );
                     })}
                 </div>
-                <div className="flex md:hidden h-[300px] w-[100px] absolute right-0 bottom-0 bg-gradient-to-l from-black/80 to-transparent mb-4 pointer-events-none"></div>
+                <div className="flex md:hidden h-[280px] w-[100px] absolute right-0 bottom-0 top-0 bg-gradient-to-l from-black/80 to-transparent mb-4 pointer-events-none"></div>
             </div>
         </div>
     );
