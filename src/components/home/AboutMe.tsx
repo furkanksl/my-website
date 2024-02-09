@@ -39,7 +39,7 @@ function AboutMe() {
             <div className="flex flex-col items-start justify-start w-full z-10">
                 <div className="text-white text-[32px] font-bold font-syne mx-auto md:mx-0">About me</div>
                 <div className="text-secondary-dark text-lg font-normal font-rubik leading-7 tracking-wide pt-6">
-                    I was born in 1998 and in a very small village at Van/Turkey. I was too crious about the android
+                    I was born in 1998 and in a very small village at Van/Turkey. I was too curious about the android
                     phones when I was in highschool. Changing firmware of phones for fun. And studied Computer
                     Engineering at university with finishing it with 3.3/4 GPA.
                     <br />
