@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function AboutMe() {
     return (
         <div className="flex flex-col md:flex-row justify-between items-center w-full gap-y-5 md:gap-y-0 gap-x-[40px] lg:gap-x-[120px]">
@@ -94,12 +96,19 @@ function AboutMe() {
                     </div>
                 </div>
 
-                {/* <div className="text-white text-opacity-70 text-2xl font-bold font-syne mt-10 md:mt-[100px]">
+                <div className="text-white text-opacity-70 text-xl sm:text-2xl font-bold font-syne mt-10 md:mt-[100px]">
                     my last posts
                 </div>
-                <div className="cursor-pointer text-neutral-400 text-lg font-normal font-rubik underline tracking-wide">
-                    How to check is array or not on type level
-                </div> */}
+                <Link href="/articles/advanced-types-in-typescript">
+                    <div className="cursor-pointer text-neutral-400 text-base sm:text-lg font-normal font-rubik underline tracking-wide">
+                        Advanced Types in TypeScript
+                    </div>
+                </Link>
+                <Link href="/articles/generics-in-typescript">
+                    <div className="cursor-pointer text-neutral-400 text-base sm:text-lg font-normal font-rubik underline tracking-wide">
+                        Generics in TypeScript
+                    </div>
+                </Link>
             </div>
         </div>
     );
